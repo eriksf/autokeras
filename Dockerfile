@@ -13,5 +13,5 @@ RUN apt update && apt upgrade -y && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
-# install needed python libraries
+# install tensorflow and autokeras
 RUN pip install tensorflow==2.10 keras==2.10 git+https://github.com/keras-team/keras-tuner.git autokeras
