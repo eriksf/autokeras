@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  build-pyreconstruct:
+  build-autokeras:
     runs-on: ubuntu-latest
 
     steps:
